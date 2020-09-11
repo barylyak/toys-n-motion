@@ -1,0 +1,745 @@
+/* General */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Baloo Tammudu 2', cursive;
+
+}
+
+
+/* First page */
+header {
+    background-color: #f1f6fa;
+    padding-top: 28px;
+}
+
+.logo {
+    width: 264px;
+    height: 61px;
+}
+
+.search {
+    display: flex;
+    position: relative;
+}
+
+.select_btn {
+    background-color: #00ca00;
+    color: white;
+    font-size: 16px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 19px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.input {
+    width: 600px;
+    border: none;
+    outline: none;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-left: 2px;
+
+}
+
+.search-icon {
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 18px;
+    color: #191919;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #0074ea;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.menu_item {
+    list-style-type: none;
+    margin-right: 95px;
+}
+
+.menu_item a {
+    color: #ddf6dd;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+li a:link {
+    color: white;
+    padding: 7px;
+}
+ li a:hover {
+    background: forestgreen;
+    color: #ffe;
+}
+.basket-info{
+    position: relative;
+    right: 50px;
+}
+.cir {
+    background-color: #ffbd00;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+.menu-cir {
+    top: -8px;
+    left: -70px;
+}
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.menu-basket {
+    color: #ffffff;
+}
+
+.basket {
+    left: -60px;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.money {
+    position: absolute;
+   left: -25px;
+    top: -7px;
+    font-size: 16px;
+    color: #ffffff;
+    width: 60px;
+}
+
+.offer {
+    justify-content: space-between;
+}
+
+.right-offer {
+    margin-left: 25px;
+    position: relative;
+}
+
+.mario {
+    width: 660px;
+    height: 480px;
+    cursor: pointer;
+}
+
+.barbie {
+    margin-bottom: 17px;
+}
+
+.barbie-title {
+    width: 230px;
+    right: 180px;
+    position: absolute;
+    top: 50px;
+}
+
+.car-title {
+    width: 230px;
+    right: 180px;
+    top: 300px;
+    position: absolute;
+}
+
+.barbie-text {
+    font-weight: 700;
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.barbie-title a {
+    color: #ffffff;
+}
+
+.car-title a {
+    color: #ffffff;
+}
+
+.car-text {
+    font-weight: 700;
+    font-size: 38px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.inform {
+    margin-bottom: 95px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    padding: 25px 15px 25px 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.inform-icon {
+    color: #ffbd00;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.inform-title {
+    font-size: 18px;
+    color: #2b2b2b;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.inform-text {
+    color: #6c6c6c;
+    font-size: 14px;
+
+}
+
+/*Discount Page*/
+.discount {
+    background-color: #f1f6fa;
+}
+
+.discount-title-block {
+    justify-content: space-between;
+    position: relative;
+}
+
+.block-title {
+    font-weight: 700;
+    color: #2b2b2b;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.flips {
+    display: flex;
+
+}
+
+.flip {
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 10px;
+    border: 1px solid #ffbf07;
+    cursor: pointer;
+}
+
+.left-flip {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    right: 72px;
+    cursor: pointer;
+}
+
+.right-flip {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    right: 14px;
+    cursor: pointer;
+}
+
+.discount-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e9e9e9;
+    position: relative;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-right: 5px;
+    /*padding-top: 33px;*/
+}
+
+.train {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.duck{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px
+}
+.mask{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px
+}
+
+.mycol {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.car {
+
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.discount-card-img {
+    height: 200px;
+    /*padding: 20px;*/
+}
+
+.discount-card-title {
+    font-size: 19px;
+    margin-top: 60px;
+    margin-bottom: 17px;
+}
+
+.price {
+    display: flex;
+}
+
+.discount-price {
+    margin-right: 12px;
+    background-color: #ff250d;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 36px;
+
+}
+
+.discount-old-price {
+    font-weight: 700;
+    font-size: 36px;
+
+}
+
+.strike {
+    background-color: #ff250d;
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    bottom: 128px;
+    left: 100px;
+}
+
+
+.discount-card-btn {
+    margin-top: 20px;
+    margin-bottom: 33px;
+    width: 230px;
+}
+
+.discount-basket {
+    color: #ffbf07;
+    position: absolute;
+    left: 50px;
+    bottom: 46px;
+}
+
+.btn {
+    border: 1.5px solid #00ca00;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #2b2b2b;
+    background-color: white;
+    outline: none;
+}
+
+.discount-dots {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    justify-content: center;
+}
+
+.dots {
+    display: flex;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 1px solid #ffbf07;
+    border-radius: 50px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.dot:hover {
+    background-color: #ffbf07;
+}
+
+.pink-fon {
+    background-color: #f10a6d;
+    border-radius: 10px;
+
+}
+
+.blue-fon {
+    background-color: #0074ea;
+    border-radius: 10px;
+}
+
+.colors-title {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.pink-text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 270px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.blue-text {
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 450px;
+    padding-top: 45px;
+    padding-bottom: 55px;
+}
+
+.colors-cir {
+    height: 22px;
+    width: 22px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.fon-flip {
+    position: absolute;
+    right: 25px;
+    bottom: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.robot {
+    position: absolute;
+    top: -35px;
+    left: -10px;
+}
+
+.pyramid {
+    position: absolute;
+    top: -3px;
+    left: 60px;
+}
+
+/*About us Page*/
+
+.about-us {
+    padding-top: 87px;
+    background-color: #f1f6fa;
+
+}
+
+.about-text {
+    margin-bottom: 22px;
+}
+
+.space {
+    height: 30px;
+}
+
+.toys {
+    width: 550px;
+}
+
+.read-more {
+    color: #ffbf07;
+    margin-top: 22px;
+}
+
+/*Popular Page*/
+
+.popular {
+    padding-top: 75px;
+    background-color: #f1f6fa;
+}
+
+.popular-block {
+    justify-content: space-between;
+    position: relative;
+}
+
+.popular-title {
+    font-weight: 700;
+    color: #2b2b2b;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.reviews-title {
+    font-weight: 700;
+    color: #2b2b2b;
+    font-size: 56px;
+    text-transform: uppercase;
+}
+
+.popular-left-flip {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    right: 70px;
+    cursor: pointer;
+}
+
+.popular-right-flip {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.line {
+    background-color: #dddddd;
+    height: 1px;
+}
+
+.popular-cards {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.popular-card {
+    margin-top: 36px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e9e9e9;
+    padding: 15px;
+}
+
+.popular-btn {
+    width: 200px;
+}
+
+.popular-card-title {
+    font-size: 19px;
+    color: #2b2b2b;
+    width: 180px;
+}
+
+.popular-card-block {
+    margin-left: 16px;
+    position: relative;
+}
+
+.popular-basket {
+    color: #ffbf07;
+    left: 23px;
+    bottom: 15px;
+
+}
+
+.popular-price {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.review-block {
+    margin-top: 35px;
+    align-items: center;
+}
+
+.foto-block {
+    margin-left: 15px;
+}
+
+.foto-title {
+    font-size: 24px;
+    color: #191919;
+    font-weight: 600;
+}
+
+.foto-text {
+    font-size: 16px;
+    color: #5b5e5f;
+}
+
+.review-text {
+
+}
+
+.review-dots {
+    margin-top: 20px;
+}
+
+.foto-icon {
+    color: #ffbf07;
+    font-size: 30px;
+}
+
+
+/*Contact Page*/
+.contacts {
+    background-color: #f1f6fa;
+
+}
+
+.footer {
+    justify-content: space-between;
+
+}
+
+.contact-card {
+    padding-top: 90px;
+    margin-bottom: 20px;
+}
+
+.contact-block {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.contact-info {
+    margin-left: 50px;
+}
+
+.footer-icon {
+    position: absolute;
+    color: #ffffff;
+    font-size: 18px;
+    left: 15px;
+}
+
+.name-info {
+    color: #888989;
+    font-size: 14px;
+}
+
+.value-info {
+    color: #2b2b2b;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer-icon-email {
+    left: 11.5px;
+}
+
+.footer-icon-tel {
+    left: 13px;
+}
+
+.inform-row {
+    display: flex;
+    background-color: #0074ea;
+    color: white;
+    margin-top: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.inform-detail {
+    /*width: 73%;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Media*/
+
+
+@media (max-width: 1200px) {
+    .offer {
+        flex-direction: column;
+    }
+
+
+    .pink-text {
+        font-size: 20px;
+        width: 155px;
+    }
+
+    .blue-text {
+        font-size: 20px;
+        width: 265px;
+        justify-content: center;
+    }
+
+    .toys {
+        width: 400px;
+        align-items: center;
+    }
+
+    .block-title {
+        font-size: 30px;
+    }
+
+    .inform {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .popular-cards {
+        justify-content: space-between;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .inform-block:last-child {
+        margin-top: 10px;
+    }
+
+
+}
+/*@media (min-width: 1547px){*/
+/*    nav{*/
+/*        width: 40%;*/
+/*    }*/
+/*}*/
